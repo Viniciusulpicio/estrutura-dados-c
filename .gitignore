@@ -1,2 +1,46 @@
-.vscode/
-/build/
+*
+!*/
+!*.*
+!Makefile
+!makefile
+!CMakeLists.txt
+!LICENSE
+!README
+
+*.exe
+*.out
+*.app
+*.hex
+*.bin
+a.out
+
+# Arquivos de objetos e dependências
+*.o
+*.obj
+*.slo
+*.lo
+*.d
+
+# Cabeçalhos pré-compilados
+*.gch
+*.pch
+
+# Bibliotecas estáticas e dinâmicas
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.la
+*.lai
+
+# Arquivos de depuração e diagnóstico (gdb, MSVC, profiling, dumps)
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.ilk
+*.gcov
+*.gcda
+*.gcno

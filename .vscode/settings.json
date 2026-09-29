@@ -3,5 +3,6 @@
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt -lm -Wno-implicit-function-declaration && $dir$fileNameWithoutExt",
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -lm -Wno-implicit-function-declaration && $dir$fileNameWithoutExt"
     },
-    "code-runner.runInTerminal": true
+    "code-runner.runInTerminal": true,
+    "C_Cpp.errorSquiggles": "disabled"
 }

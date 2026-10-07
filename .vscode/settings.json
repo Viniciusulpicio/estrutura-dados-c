@@ -1,7 +1,7 @@
 {
     "code-runner.executorMap": {
-        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt -lm -Wno-implicit-function-declaration && $dir$fileNameWithoutExt",
-        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -lm -Wno-implicit-function-declaration && $dir$fileNameWithoutExt"
+        "c": "cd $dir && run_c $fileName",
+        "cpp": "cd $dir && run_c $fileName"
     },
     "code-runner.runInTerminal": true,
     "C_Cpp.errorSquiggles": "disabled"

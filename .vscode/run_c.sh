@@ -31,7 +31,7 @@ done
 
 # 2. Outros arquivos .c / .cpp na mesma pasta sem função main()
 for f in *.c *.cpp; do
-    if [ -f "$f" ] && [ "$f" != "$file" ] && ! grep -Eq '\bmain[[:space:]]*\(' "$f" 2>/dev/null; then
+    if [ -f "$f" ] && [ "$f" != "$file" ] && [[ "$f" != tempCodeRunnerFile* ]] && ! grep -Eq '\bmain[[:space:]]*\(' "$f" 2>/dev/null; then
         if [[ ! " ${deps[*]} " =~ " $f " ]]; then
             deps+=("$f")
         fi
